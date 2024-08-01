@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+}
+h1 {
+  text-align: center;
+}
+form {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+label {
+  color: #333;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 5px;
+}
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
